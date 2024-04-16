@@ -1,12 +1,11 @@
-import { useState } from 'react'
-
+import Youtube from "./youtube"
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <h1>Welcome to vite react app</h1>
+      <h1>Welcome to vite react app hello</h1>
+      <Youtube />
     </>
   )
 }
